@@ -1,0 +1,25 @@
+[[get_ingeschreven_persoon_by_bsn_with_expand_header_find]]
+=== Finding one person by BSN and expand
+
+Find one person, including whereabouts and links to children, partners and parents.
+It also expand a subset information of the relatives
+It only concerns current records of the person.
+
+[[get_ingeschreven_persoon_by_bsn_with_expand_success_call]]
+==== Successful call
+
+When making a successfull call to this API endpoint, the following request parameters and body can be expected.
+
+[[get_ingeschreven_persoon_by_bsn_with_expand_success_request]]
+==== Request
+
+include::{snippets}/get_ingeschreven_persoon_by_bsn_with_expand/http-request.adoc[]
+
+====== curl
+
+include::{snippets}/get_ingeschreven_persoon_by_bsn_with_expand/httpie-request.adoc[]
+
+[[get_ingeschreven_persoon_by_bsn_with_expand_success_response]]
+==== Response
+
+include::{snippets}/get_ingeschreven_persoon_by_bsn_with_expand/http-response.adoc[]

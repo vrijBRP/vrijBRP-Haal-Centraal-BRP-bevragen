@@ -1,0 +1,24 @@
+[[get_ingeschreven_persoon1_header_find]]
+=== Finding people
+
+Find people, including their whereabouts, children, partners and parents.
+It only concerns current records of the person.
+
+[[get_ingeschreven_persoon1_success_call]]
+==== Successful call
+
+When making a successfull call to this API endpoint, the following request parameters and body can be expected.
+
+[[get_ingeschreven_persoon1_success_request]]
+==== Request
+
+include::{snippets}/get_ingeschreven_persoon1/http-request.adoc[]
+
+====== curl
+
+include::{snippets}/get_ingeschreven_persoon1/httpie-request.adoc[]
+
+[[get_ingeschreven_persoon1_success_response]]
+==== Response
+
+include::{snippets}/get_ingeschreven_persoon1/http-response.adoc[]

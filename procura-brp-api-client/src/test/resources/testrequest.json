@@ -1,0 +1,35 @@
+{
+  "ids": [
+    123459898,
+    123459899
+  ],
+  "categories": [
+    1,
+    7,
+    8
+  ],
+  "maxFindCount": 1,
+  "datasource": 0,
+  "showArchives": false,
+  "showRemoved": false,
+  "showHistory": true,
+  "showSuspended": false,
+  "showMutations": false,
+  "searchOnAddress": false,
+  "searchRelations": false,
+  "searchIndications": false,
+  "lastName": "Boer",
+  "firstName": "Pieter",
+  "prefix": "de",
+  "gender": "V",
+  "dateOfBirth": "19900406",
+  "title": "Graaf",
+  "street": "Dorpstraat",
+  "hnr": "1",
+  "hnrL": "A",
+  "hnrT": "to",
+  "hnrA": "xyz",
+  "postalCode": "1234AA",
+  "residence": "De Rijp",
+  "municipality": "Alkmaar"
+}
