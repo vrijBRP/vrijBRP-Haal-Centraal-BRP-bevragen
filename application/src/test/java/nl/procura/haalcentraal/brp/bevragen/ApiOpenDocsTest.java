@@ -19,11 +19,13 @@
 
 package nl.procura.haalcentraal.brp.bevragen;
 
+import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.hamcrest.Matchers.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
 import java.io.File;
+import java.nio.charset.StandardCharsets;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
@@ -44,8 +46,8 @@ public class ApiOpenDocsTest {
 
   @Test
   public void apiDocsCanBeDownloaded() throws Exception {
-    saveToFile("bip-api-docs.json", "bevraging-ingeschreven-personen");
-    saveToFile("lt-api-docs.json", "landelijke-tabellen");
+    saveToFile("bip-api-docs-v1_3_0.json", "bevraging-ingeschreven-personen-1.3");
+    saveToFile("lt-api-docs-v1_0_0.json", "landelijke-tabellen-1.0");
   }
 
   private void saveToFile(String outputFile, String uri) throws Exception {
@@ -54,7 +56,7 @@ public class ApiOpenDocsTest {
         mockMvc.perform(get("/public/v3/api-docs/" + uri))
             .andReturn()
             .getResponse()
-            .getContentAsString().getBytes());
+            .getContentAsString(UTF_8).getBytes());
 
     log.info(String.format(uri + " written to %s.", file.getAbsolutePath()));
   }

@@ -4,10 +4,32 @@
 :toclevels: 3
 :page-layout: docs
 
-= Haal Centraal BRP Bevragen API
+= Haal Centraal BRP Bevragen API v1.3
+
+Version 1.3.0
+
+== General information
+
+=== Open API 3.0
+
+link:public/swagger-ui.html[Swagger UI]
+
+link:public/v3/api-docs/bevraging-ingeschreven-personen-1.3[Open API 3 Specification]
+
+=== Important information
+
+* The endpoint ```/ingeschrevenpersonen/{burgerservicenummer}``` also returns deceased people and suspended personlists.
+
+* The endpoint ```/ingeschrevenpersonen``` does not, by default, return deceased people unless the parameter ```inclusiefOverledenPersonen=true``` is included in the query.
+
+* Deceased relatives are still relatives and included in embedded and links as partner, parent or child.
+
+Check for value ```opschortingBijhouding``` (suspended) and ```overlijden``` (deceased).
 
 [[examples]]
 == Examples
+
+The source and documentation uses fake test data provided by the National Office for Identity Data (RvIG).
 
 include::get_ingeschreven_persoon1/index.adoc[]
 include::get_ingeschreven_persoon_by_bsn1/index.adoc[]

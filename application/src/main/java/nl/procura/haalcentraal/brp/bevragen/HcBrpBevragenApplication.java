@@ -28,5 +28,4 @@ public class HcBrpBevragenApplication {
   public static void main(String[] args) {
     SpringApplication.run(HcBrpBevragenApplication.class, args);
   }
-
 }

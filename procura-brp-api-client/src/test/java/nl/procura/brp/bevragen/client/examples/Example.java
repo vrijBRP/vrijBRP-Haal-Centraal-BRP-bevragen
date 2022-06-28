@@ -22,7 +22,7 @@ package nl.procura.brp.bevragen.client.examples;
 import java.util.Arrays;
 import java.util.Collections;
 
-import nl.procura.brp.bevragen.client.GbaWsPersonListClient;
+import nl.procura.brp.bevragen.client.GbaWsClient;
 import nl.procura.brp.bevragen.client.GbaWsPersonListClientConfig;
 import nl.procura.burgerzaken.gba.core.enums.GBACat;
 import nl.procura.burgerzaken.gba.core.enums.GBAElem;
@@ -47,7 +47,7 @@ public class Example {
         .password("secret")
         .build();
 
-    GbaWsPersonListClient client = GbaWsPersonListClient.builder()
+    GbaWsClient client = GbaWsClient.builder()
         .config(config)
         .build();
 

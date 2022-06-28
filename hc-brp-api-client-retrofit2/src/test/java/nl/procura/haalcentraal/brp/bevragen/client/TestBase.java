@@ -22,9 +22,7 @@ package nl.procura.haalcentraal.brp.bevragen.client;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
-
 import nl.procura.haalcentraal.brp.bevragen.HcBrpBevragenApplication;
-
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -32,15 +30,17 @@ import lombok.extern.slf4j.Slf4j;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = HcBrpBevragenApplication.class)
 public class TestBase {
 
+//  @Autowired
+//  Environment environment;
+
   @LocalServerPort
   private int serverPort;
 
-  public HcBrpBevragenApiClient getApiClient() {
+  public HcBrpBevragenApiClientV1_3 getApiClient() {
     //TODO Add authentication
     //    Client adminClient = createClient(
     //        new Client("admin", "secret",
     //            Scope.of("api"), singleton(Grants.CLIENT_CREDENTIALS)));
-
     String baseURL = String.format("http://localhost:%d/", serverPort);
     String tokenUrl = baseURL + "oauth/token";
 
@@ -52,7 +52,7 @@ public class TestBase {
         .scopes(ApiClientConfiguration.SCOPE_API)
         .build();
 
-    return HcBrpBevragenApiClient
+    return HcBrpBevragenApiClientV1_3
         .builder()
         .config(config)
         .build();

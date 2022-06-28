@@ -1,0 +1,17 @@
+{
+  "tables": [
+    {
+      "code": 32,
+      "description": "Nationaliteiten",
+      "records": [
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0065",
+          "description": "Joegoslavische",
+          "endDate": 20040201,
+          "startDate": -1
+        }
+      ]
+    }
+  ]
+}

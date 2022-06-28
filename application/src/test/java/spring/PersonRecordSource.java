@@ -28,6 +28,8 @@ import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.event.ContextClosedEvent;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.test.context.event.AfterTestMethodEvent;
 
 import okhttp3.mockwebserver.MockResponse;
@@ -45,6 +47,14 @@ public class PersonRecordSource implements ApplicationContextInitializer<Configu
 
   private static MockWebServer mockServer;
   private static int           queued = 0;
+
+  public static void enqueueResponse(String personWsResponse) {
+    enqueue(new MockResponse()
+        .setResponseCode(200)
+        .setHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
+        .setHeader(HttpHeaders.ACCEPT, MediaType.APPLICATION_JSON_VALUE)
+        .setBody(personWsResponse));
+  }
 
   public static void enqueue(MockResponse response) {
     if (mockServer == null) {

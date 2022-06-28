@@ -4,7 +4,7 @@
     <parent>
         <groupId>nl.procura.haalcentraal</groupId>
         <artifactId>brp-bevragen</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </parent>
 
     <groupId>nl.procura.haalcentraal.brp.bevragen</groupId>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>nl.procura.gba</groupId>
             <artifactId>gba-ws-rest-model</artifactId>
-            <version>1.23.1</version>
+            <version>${vrijbrp.balie.version}</version>
         </dependency>
 
         <dependency>

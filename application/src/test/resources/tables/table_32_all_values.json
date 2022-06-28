@@ -1,0 +1,1529 @@
+{
+  "tables": [
+    {
+      "code": 32,
+      "description": "Nationaliteiten",
+      "records": [
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0000",
+          "description": "Onbekend",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0001",
+          "description": "Nederlandse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0002",
+          "description": "Behandeld als Nederlander",
+          "endDate": 20070401,
+          "startDate": 20070401
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0027",
+          "description": "Slowaakse",
+          "endDate": -1,
+          "startDate": 19930101
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0028",
+          "description": "Tsjechische",
+          "endDate": -1,
+          "startDate": 19930101
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0029",
+          "description": "Burger van Bosnië-Herzegovina",
+          "endDate": -1,
+          "startDate": 19920406
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0030",
+          "description": "Georgische",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0031",
+          "description": "Turkmeense",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0032",
+          "description": "Tadzjiekse",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0033",
+          "description": "Oezbeekse",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0034",
+          "description": "Oekraïense",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0035",
+          "description": "Kirgizische",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0036",
+          "description": "Moldavische",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0037",
+          "description": "Kazachse",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0038",
+          "description": "Belarussische",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0039",
+          "description": "Azerbeidzjaanse",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0040",
+          "description": "Armeense",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0041",
+          "description": "Russische",
+          "endDate": -1,
+          "startDate": 19911231
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0042",
+          "description": "Sloveense",
+          "endDate": -1,
+          "startDate": 19920115
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0043",
+          "description": "Kroatische",
+          "endDate": -1,
+          "startDate": 19920115
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0044",
+          "description": "Letse",
+          "endDate": -1,
+          "startDate": 19910828
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0045",
+          "description": "Estische",
+          "endDate": -1,
+          "startDate": 19910828
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0046",
+          "description": "Litouwse",
+          "endDate": -1,
+          "startDate": 19910828
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0047",
+          "description": "Marshalleilandse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0048",
+          "description": "Myanmarese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0049",
+          "description": "Namibische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0050",
+          "description": "Albanese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0051",
+          "description": "Andorrese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0052",
+          "description": "Belgische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0053",
+          "description": "Bulgaarse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0054",
+          "description": "Deense",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0055",
+          "description": "Burger van de Bondsrepubliek Duitsland",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0056",
+          "description": "Finse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0057",
+          "description": "Franse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0058",
+          "description": "Jemenitische",
+          "endDate": -1,
+          "startDate": 19900522
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0059",
+          "description": "Griekse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0060",
+          "description": "Brits burger",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0061",
+          "description": "Hongaarse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0062",
+          "description": "Ierse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0063",
+          "description": "IJslandse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0064",
+          "description": "Italiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0065",
+          "description": "Joegoslavische",
+          "endDate": 20040201,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0066",
+          "description": "Liechtensteinse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0067",
+          "description": "Luxemburgse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0068",
+          "description": "Maltese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0069",
+          "description": "Monegaskische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0070",
+          "description": "Noorse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0071",
+          "description": "Oostenrijkse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0072",
+          "description": "Poolse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0073",
+          "description": "Portugese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0074",
+          "description": "Roemeense",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0075",
+          "description": "Burger van de Sovjet-Unie",
+          "endDate": 19911231,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0076",
+          "description": "San Marinese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0077",
+          "description": "Spaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0078",
+          "description": "Tsjecho-Slowaakse",
+          "endDate": 19930101,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0079",
+          "description": "Vaticaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=1\r\n",
+          "code": "0080",
+          "description": "Zweedse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0081",
+          "description": "Zwitserse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0082",
+          "description": "Oost-Duitse",
+          "endDate": 19901003,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0083",
+          "description": "Brits onderdaan",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0084",
+          "description": "Eritrese",
+          "endDate": -1,
+          "startDate": 19930528
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0085",
+          "description": "Brits overzees burger",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0086",
+          "description": "Macedonische",
+          "endDate": 20190212,
+          "startDate": 19930419
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0087",
+          "description": "Kosovaarse",
+          "endDate": -1,
+          "startDate": 20080615
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0088",
+          "description": "Macedonische/Burger van Noord-Macedonië",
+          "endDate": -1,
+          "startDate": 20190212
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0100",
+          "description": "Algerijnse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0101",
+          "description": "Angolese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0104",
+          "description": "Burundese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0105",
+          "description": "Botswaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0106",
+          "description": "Burkinese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0108",
+          "description": "Centraal-Afrikaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0109",
+          "description": "Comorese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0110",
+          "description": "Burger van Congo",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0111",
+          "description": "Beninse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0112",
+          "description": "Egyptische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0113",
+          "description": "Equatoriaal-Guinese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0114",
+          "description": "Ethiopische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0115",
+          "description": "Djiboutiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0116",
+          "description": "Gabonese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0117",
+          "description": "Gambiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0118",
+          "description": "Ghanese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0119",
+          "description": "Guinese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0120",
+          "description": "Ivoriaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0121",
+          "description": "Kaapverdische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0122",
+          "description": "Kameroense",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0123",
+          "description": "Kenyaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0124",
+          "description": "Zaïrese",
+          "endDate": 19970715,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0125",
+          "description": "Lesothaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0126",
+          "description": "Liberiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0127",
+          "description": "Libische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0128",
+          "description": "Malagassische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0129",
+          "description": "Malawische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0130",
+          "description": "Malinese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0131",
+          "description": "Marokkaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0132",
+          "description": "Mauritaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0133",
+          "description": "Mauritiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0134",
+          "description": "Mozambikaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0135",
+          "description": "Swazische",
+          "endDate": 20180419,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0136",
+          "description": "Nigerese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0137",
+          "description": "Nigeriaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0138",
+          "description": "Ugandese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0139",
+          "description": "Guinee-Bissause",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0140",
+          "description": "Zuid-Afrikaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0141",
+          "description": "Eswatinische",
+          "endDate": -1,
+          "startDate": 20180419
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0142",
+          "description": "Zimbabwaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0143",
+          "description": "Rwandese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0144",
+          "description": "Burger van São Tomé en Principe",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0145",
+          "description": "Senegalese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0147",
+          "description": "Sierra Leoonse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0148",
+          "description": "Soedanese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0149",
+          "description": "Somalische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0151",
+          "description": "Tanzaniaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0152",
+          "description": "Togolese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0154",
+          "description": "Tsjadische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0155",
+          "description": "Tunesische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0156",
+          "description": "Zambiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0157",
+          "description": "Zuid-Soedanese",
+          "endDate": -1,
+          "startDate": 20110709
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0200",
+          "description": "Bahamaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0202",
+          "description": "Belizaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0204",
+          "description": "Canadese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0205",
+          "description": "Costa Ricaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0206",
+          "description": "Cubaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0207",
+          "description": "Dominicaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0208",
+          "description": "Salvadoraanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0211",
+          "description": "Guatemalaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0212",
+          "description": "Haïtiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0213",
+          "description": "Hondurese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0214",
+          "description": "Jamaicaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0216",
+          "description": "Mexicaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0218",
+          "description": "Nicaraguaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0219",
+          "description": "Panamese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0222",
+          "description": "Burger van Trinidad en Tobago",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0223",
+          "description": "Amerikaans burger",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0250",
+          "description": "Argentijnse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0251",
+          "description": "Barbadaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0252",
+          "description": "Boliviaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0253",
+          "description": "Braziliaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0254",
+          "description": "Chileense",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0255",
+          "description": "Colombiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0256",
+          "description": "Ecuadoraanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0259",
+          "description": "Guyaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0261",
+          "description": "Paraguayaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0262",
+          "description": "Peruaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0263",
+          "description": "Surinaamse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0264",
+          "description": "Uruguayaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0265",
+          "description": "Venezolaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0267",
+          "description": "Grenadaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0268",
+          "description": "Burger van Saint Kitts en Nevis",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0300",
+          "description": "Afghaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0301",
+          "description": "Bahreinse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0302",
+          "description": "Bhutaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0303",
+          "description": "Burmaanse",
+          "endDate": 19890618,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0304",
+          "description": "Bruneise",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0305",
+          "description": "Cambodjaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0306",
+          "description": "Sri Lankaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0307",
+          "description": "Chinese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=1\r\nid=0\r\n",
+          "code": "0308",
+          "description": "Cyprische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0309",
+          "description": "Filipijnse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0310",
+          "description": "Taiwanese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0312",
+          "description": "Indiase",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0313",
+          "description": "Indonesische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0314",
+          "description": "Iraakse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0315",
+          "description": "Iraanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0316",
+          "description": "Israëlische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0317",
+          "description": "Japanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0318",
+          "description": "Noord-Jemenitische",
+          "endDate": 19900522,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0319",
+          "description": "Jordaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0320",
+          "description": "Koeweitse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0321",
+          "description": "Laotiaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0322",
+          "description": "Libanese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0324",
+          "description": "Maldivische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0325",
+          "description": "Maleisische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0326",
+          "description": "Mongolische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0327",
+          "description": "Omaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0328",
+          "description": "Nepalese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0329",
+          "description": "Noord-Koreaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0331",
+          "description": "Pakistaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0333",
+          "description": "Qatarese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0334",
+          "description": "Saoedi-Arabische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0335",
+          "description": "Singaporese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0336",
+          "description": "Syrische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0337",
+          "description": "Thaise",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0338",
+          "description": "Burger van de Verenigde Arabische Emiraten",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0339",
+          "description": "Turkse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0340",
+          "description": "Zuid-Jemenitische",
+          "endDate": 19900522,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0341",
+          "description": "Zuid-Koreaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0342",
+          "description": "Vietnamese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0345",
+          "description": "Bengalese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0400",
+          "description": "Australische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0401",
+          "description": "Papoea-Nieuw-Guinese",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0402",
+          "description": "Nieuw-Zeelandse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0404",
+          "description": "West-Samoaanse",
+          "endDate": 19970704,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0405",
+          "description": "Samoaanse",
+          "endDate": -1,
+          "startDate": 19970704
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0421",
+          "description": "Burger van Antigua en Barbuda",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0424",
+          "description": "Vanuatuaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0425",
+          "description": "Fijische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0429",
+          "description": "Burger van Britse afhankelijke gebieden",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0430",
+          "description": "Tongaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0431",
+          "description": "Nauruaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0432",
+          "description": "Palause",
+          "endDate": -1,
+          "startDate": 19941001
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0437",
+          "description": "Amerikaans onderdaan",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0442",
+          "description": "Salomonseilandse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0443",
+          "description": "Micronesische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0444",
+          "description": "Seychelse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0445",
+          "description": "Kiribatische",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0446",
+          "description": "Tuvaluaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0447",
+          "description": "Saint Luciaanse",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0448",
+          "description": "Burger van Dominica",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0449",
+          "description": "Burger van Saint Vincent en de Grenadines",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0450",
+          "description": "British National (overseas)",
+          "endDate": -1,
+          "startDate": 19870701
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0451",
+          "description": "Burger van Democratische Republiek Congo",
+          "endDate": -1,
+          "startDate": 19970517
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0452",
+          "description": "Burger van Timor Leste",
+          "endDate": -1,
+          "startDate": 20020520
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0453",
+          "description": "Burger van Servië en Montenegro",
+          "endDate": 20060603,
+          "startDate": 20030204
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0454",
+          "description": "Servische",
+          "endDate": -1,
+          "startDate": 20060603
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0455",
+          "description": "Montenegrijnse",
+          "endDate": -1,
+          "startDate": 20060603
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0499",
+          "description": "Staatloos",
+          "endDate": -1,
+          "startDate": -1
+        },
+        {
+          "attributes": "#Fri Aug 14 12:17:10 CEST 2020\r\neu=0\r\nid=0\r\n",
+          "code": "0500",
+          "description": "Vastgesteld niet-Nederlander",
+          "endDate": 20070401,
+          "startDate": 20070401
+        }
+      ]
+    }
+  ]
+}

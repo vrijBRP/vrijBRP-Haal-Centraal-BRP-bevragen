@@ -4,7 +4,7 @@
     <parent>
         <groupId>nl.procura.haalcentraal</groupId>
         <artifactId>brp-bevragen</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </parent>
 
     <groupId>nl.procura.haalcentraal.brp.bevragen</groupId>
@@ -49,13 +49,13 @@
                 <artifactId>openapi-generator-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>bip</id>
+                        <id>bipv1_3</id>
                         <goals>
                             <goal>generate</goal>
                         </goals>
                         <configuration>
                             <inputSpec>
-                                ${project.basedir}/../application/src/main/resources/static/public/ingeschreven-personen.yaml
+                                ${project.basedir}/../application/src/main/resources/static/public/ingeschreven-personen-v1_3_0.yaml
                             </inputSpec>
                             <generatorName>spring</generatorName>
                             <configOptions>
@@ -67,9 +67,9 @@
                                 <hateoas>false</hateoas>
                                 <interfaceOnly>true</interfaceOnly>
                                 <swaggerDocketConfig>false</swaggerDocketConfig>
-                                <modelPackage>nl.vng.realisatie.haalcentraal.rest.generated.model.bip</modelPackage>
-                                <apiPackage>nl.vng.realisatie.haalcentraal.rest.generated.api.bip</apiPackage>
-                                <configPackage>nl.vng.realisatie.haalcentraal.rest.generated.config.bip</configPackage>
+                                <modelPackage>nl.vng.realisatie.haalcentraal.rest.generated.model.bipv1_3</modelPackage>
+                                <apiPackage>nl.vng.realisatie.haalcentraal.rest.generated.api.bipv1_3</apiPackage>
+                                <configPackage>nl.vng.realisatie.haalcentraal.rest.generated.config.bipv1_3</configPackage>
                                 <generateApiDocumentation>false</generateApiDocumentation>
                                 <generateModelDocumentation>false</generateModelDocumentation>
                             </configOptions>
@@ -83,7 +83,7 @@
                         </goals>
                         <configuration>
                             <inputSpec>
-                                ${project.basedir}/../application/src/main/resources/static/public/landelijke-tabellen.yaml
+                                ${project.basedir}/../application/src/main/resources/static/public/landelijke-tabellen-1_0_0.yaml
                             </inputSpec>
                             <generatorName>spring</generatorName>
                             <configOptions>
@@ -106,7 +106,9 @@
                 </executions>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
                 <executions>
                     <execution>
                         <id>copy-resources</id>

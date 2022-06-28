@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>nl.procura.haalcentraal</groupId>
     <artifactId>brp-bevragen</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <name>Haal Centraal BRP</name>
     <packaging>pom</packaging>
 
@@ -29,6 +30,7 @@
         <lombok.version>1.18.10</lombok.version>
         <springfox.version>2.8.0</springfox.version>
         <openapi-generator-maven-plugin.version>4.2.2</openapi-generator-maven-plugin.version>
+        <vrijbrp.balie.version>1.27.2</vrijbrp.balie.version>
     </properties>
 
     <organization>
@@ -49,7 +51,8 @@
     </distributionManagement>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/vrijBRP/vrijBRP-haal-centraal-brp-bevragen.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/vrijBRP/vrijBRP-haal-centraal-brp-bevragen.git
+        </developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -166,6 +169,7 @@
                     <version>${maven-surefire-plugin.version}</version>
                 </plugin>
 
+
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>build-helper-maven-plugin</artifactId>
@@ -220,6 +224,14 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                </configuration>
             </plugin>
         </plugins>
     </build>

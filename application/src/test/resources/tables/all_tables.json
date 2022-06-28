@@ -1,0 +1,64 @@
+{
+  "tables": [
+    {
+      "code": 32,
+      "description": "Nationaliteiten"
+    },
+    {
+      "code": 33,
+      "description": "Plaatsen"
+    },
+    {
+      "code": 34,
+      "description": "Landen"
+    },
+    {
+      "code": 36,
+      "description": "Voorvoegsels"
+    },
+    {
+      "code": 37,
+      "description": "Redenen opnemen / beëindigen nationaliteit"
+    },
+    {
+      "code": 38,
+      "description": "Adellijke titel predikaten"
+    },
+    {
+      "code": 39,
+      "description": "Akte aanduidingen"
+    },
+    {
+      "code": 41,
+      "description": "Redenen ontbinding nietigverklaring huwelijk geregistreerd partnerschap"
+    },
+    {
+      "code": 48,
+      "description": "Nederlands reisdocumenten"
+    },
+    {
+      "code": 49,
+      "description": "Autoriteiten van afgifte Nederlands reisdocument"
+    },
+    {
+      "code": 56,
+      "description": "Verblijfstitels"
+    },
+    {
+      "code": 59,
+      "description": "GBA-deelnemers"
+    },
+    {
+      "code": 60,
+      "description": "RNI-deelnemers"
+    },
+    {
+      "code": 61,
+      "description": "Indicaties gezag minderjarige"
+    },
+    {
+      "code": 93,
+      "description": "Woonplaatsen"
+    }
+  ]
+}

@@ -23,7 +23,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
@@ -32,27 +31,16 @@ import lombok.experimental.Accessors;
  */
 @Getter
 @Setter
-@RequiredArgsConstructor
 @Accessors(chain = true)
 public class ReturnException extends RuntimeException {
 
-  @Getter
-  @Accessors(fluent = true)
-  @RequiredArgsConstructor
-  public static class Param {
+  private String            title;
+  private String            code;
+  private int               statusCode = 400;
+  private final List<Param> params     = new ArrayList<>();
 
-    private final String name;
-    private final String code;
-    private final String reason;
+  public ReturnException() {
   }
-
-  private final List<Param> params = new ArrayList<>();
-
-  private String title;
-
-  private int statusCode = 400;
-
-  private String code;
 
   public ReturnException(int statusCode) {
     this.statusCode = statusCode;
@@ -63,4 +51,18 @@ public class ReturnException extends RuntimeException {
     return this;
   }
 
+  @Getter
+  @Accessors(fluent = true)
+  public static class Param {
+
+    private final String name;
+    private final String code;
+    private final String reason;
+
+    public Param(String name, String code, String reason) {
+      this.name = name;
+      this.code = code;
+      this.reason = reason;
+    }
+  }
 }
