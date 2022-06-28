@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>nl.procura.haalcentraal</groupId>
     <artifactId>brp-bevragen</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <name>Haal Centraal BRP</name>
     <packaging>pom</packaging>
 
