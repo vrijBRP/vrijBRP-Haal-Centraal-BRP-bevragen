@@ -151,7 +151,9 @@ public class PersonUtils {
   }
 
   public static GeslachtEnum toGeslachtsAanduiding(final GbaWsPersonListRec rec) {
-    return GeslachtAanduiding.fromCode(rec.getElemValue(GESLACHTSAAND)).getType();
+    return Optional.ofNullable(GeslachtAanduiding.fromCode(rec.getElemValue(GESLACHTSAAND)))
+        .map(GeslachtAanduiding::getType)
+        .orElse(null);
   }
 
   public static OpschortingBijhouding toOpschorting(PersonSource source) {

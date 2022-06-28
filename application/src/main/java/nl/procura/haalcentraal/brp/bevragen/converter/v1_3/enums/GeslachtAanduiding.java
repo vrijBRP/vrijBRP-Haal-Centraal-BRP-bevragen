@@ -21,6 +21,8 @@ package nl.procura.haalcentraal.brp.bevragen.converter.v1_3.enums;
 
 import java.util.Arrays;
 
+import org.springframework.util.StringUtils;
+
 import nl.vng.realisatie.haalcentraal.rest.generated.model.bipv1_3.GeslachtEnum;
 
 import lombok.Getter;
@@ -48,10 +50,14 @@ public enum GeslachtAanduiding {
   }
 
   public static GeslachtAanduiding fromCode(final String code) {
-    return Arrays.stream(values())
-        .filter(i -> i.getCode().equals(code))
-        .findFirst()
-        .orElseThrow(() -> new IllegalArgumentException("Onbekende Geslachtaanduiding code : " + code));
+    GeslachtAanduiding result = null;
+    if (StringUtils.hasText(code)) {
+      result = Arrays.stream(values())
+          .filter(i -> i.getCode().equals(code))
+          .findFirst()
+          .orElseThrow(() -> new IllegalArgumentException("Onbekende Geslachtaanduiding code : " + code));
+    }
+    return result;
   }
 
   public boolean isMale() {
