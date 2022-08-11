@@ -4,7 +4,7 @@
     <parent>
         <groupId>nl.procura.haalcentraal</groupId>
         <artifactId>brp-bevragen</artifactId>
-        <version>1.0.7-SNAPSHOT</version>
+        <version>1.0.7</version>
     </parent>
 
     <groupId>nl.procura.haalcentraal.brp.bevragen</groupId>
