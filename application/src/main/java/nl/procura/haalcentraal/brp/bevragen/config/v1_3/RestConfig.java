@@ -109,7 +109,7 @@ public class RestConfig {
   @Bean
   public GroupedOpenApi openApiGroupLt() {
     return GroupedOpenApi.builder()
-        .setGroup("landelijke-tabellen-1.0")
+        .group("landelijke-tabellen-1.0")
         .packagesToScan(LandelijkeTabellenResourceV1.class.getPackageName())
         .addOpenApiCustomiser(openApi -> openApi
             .paths(sortPaths(openApi.getPaths()))
@@ -127,7 +127,7 @@ public class RestConfig {
   @Bean
   public GroupedOpenApi openApiGroupBipV1_3() {
     return GroupedOpenApi.builder()
-        .setGroup("bevraging-ingeschreven-personen-1.3")
+        .group("bevraging-ingeschreven-personen-1.3")
         .packagesToScan(IngeschrevenPersonenResourceV1_3.class.getPackageName())
         .addOpenApiCustomiser(openApi -> openApi
             .paths(sortPaths(openApi.getPaths()))

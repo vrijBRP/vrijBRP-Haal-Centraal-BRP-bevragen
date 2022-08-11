@@ -1,8 +1,11 @@
 package nl.procura.haalcentraal.brp.bevragen.resources.bipV1_3;
 
+import static java.net.URLDecoder.decode;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
+
+import java.nio.charset.StandardCharsets;
 
 /*
 Functionaliteit: JSON HAL self links worden opgenomen in de response
@@ -35,7 +38,8 @@ public class SelfLinkTest extends IngeschrevenPersonenResourceTest {
     var collection = getIngeschrevenPersonen(params);
 
     String link = collection.getLinks().getSelf().getHref();
-    assertTrue(link.contains("ingeschrevenpersonen?expand=ouders,partners,kinderen&naam__geslachtsnaam=Janssen"));
+    assertTrue(decode(link, StandardCharsets.UTF_8)
+        .contains("ingeschrevenpersonen?expand=ouders,partners,kinderen&naam__geslachtsnaam=Janssen"));
   }
 
   /*
@@ -59,13 +63,16 @@ public class SelfLinkTest extends IngeschrevenPersonenResourceTest {
     var people = getIngeschrevenPersonen(params);
 
     String link1 = people.getEmbedded().getIngeschrevenpersonen().get(0).getLinks().getSelf().getHref();
-    assertTrue(link1.contains("ingeschrevenpersonen/999995935?expand=ouders,partners,kinderen"));
+    assertTrue(decode(link1, StandardCharsets.UTF_8)
+        .contains("ingeschrevenpersonen/999995935?expand=ouders,partners,kinderen"));
 
     String link2 = people.getEmbedded().getIngeschrevenpersonen().get(1).getLinks().getSelf().getHref();
-    assertTrue(link2.contains("ingeschrevenpersonen/999995145?expand=ouders,partners,kinderen"));
+    assertTrue(decode(link2, StandardCharsets.UTF_8)
+        .contains("ingeschrevenpersonen/999995145?expand=ouders,partners,kinderen"));
 
     String link3 = people.getEmbedded().getIngeschrevenpersonen().get(2).getLinks().getSelf().getHref();
-    assertTrue(link3.contains("ingeschrevenpersonen/999990627?expand=ouders,partners,kinderen"));
+    assertTrue(decode(link3, StandardCharsets.UTF_8)
+        .contains("ingeschrevenpersonen/999990627?expand=ouders,partners,kinderen"));
   }
 
   /*
@@ -82,7 +89,8 @@ public class SelfLinkTest extends IngeschrevenPersonenResourceTest {
 
     var people = getIngeschrevenPersoon(params);
     String link = people.getLinks().getSelf().getHref();
-    assertTrue(link.contains("ingeschrevenpersonen/999992545?expand=ouders,partners,kinderen&fields=naam,ouders"));
+    assertTrue(decode(link, StandardCharsets.UTF_8)
+        .contains("ingeschrevenpersonen/999992545?expand=ouders,partners,kinderen&fields=naam,ouders"));
   }
 
   /*
