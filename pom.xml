@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>nl.procura.haalcentraal</groupId>
   <artifactId>brp-bevragen</artifactId>
-  <version>1.0.8-SNAPSHOT</version>
+  <version>1.0.10</version>
   <name>Haal Centraal BRP</name>
   <packaging>pom</packaging>
 
   <properties>
-    <java.version>11</java.version>
+    <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>${java.version}</maven.compiler.release>
-    <vrijbrp-libs.version>1.0.5</vrijbrp-libs.version>
-    <vrijbrp.balie.version>1.29.5</vrijbrp.balie.version>
+    <vrijbrp-libs.version>1.0.11</vrijbrp-libs.version>
+    <gba-rest.version>1.30.10</gba-rest.version>
+    <vrijbrp.balie.version>1.33.8</vrijbrp.balie.version>
     <spring-boot.version>2.7.11</spring-boot.version>
     <org.springdoc.version>1.6.9</org.springdoc.version>
     <commons-io.version>2.11.0</commons-io.version>
@@ -37,7 +36,7 @@
   <scm>
     <developerConnection>scm:git:https://gitlab.simgroep.nl/vrijbrp/haal-centraal-brp-bevragen.git
     </developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.0.10</tag>
   </scm>
 
   <modules>
@@ -175,7 +174,7 @@
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
-          <version>0.8.5</version>
+          <version>0.8.11</version>
         </plugin>
 
         <plugin>
@@ -203,7 +202,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <release>11</release>
+          <release>${java.version}</release>
           <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
