@@ -1,16 +1,19 @@
 package nl.procura.haalcentraal.brp.bevragen.model;
 
-import lombok.Data;
-import nl.procura.haalcentraal.brp.bevragen.converter.v1_3.enums.GeslachtAanduiding;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-
 import static java.util.Arrays.asList;
 import static java.util.Objects.nonNull;
 import static org.apache.commons.lang3.StringUtils.split;
-import static org.apache.tomcat.util.IntrospectionUtils.capitalize;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
+
+import nl.procura.haalcentraal.brp.bevragen.converter.v1_3.enums.AdellijkeTitelPredikaat;
+import nl.procura.haalcentraal.brp.bevragen.converter.v1_3.enums.GeslachtAanduiding;
+
+import lombok.Data;
 
 @Data
 public class GebruikInLopendeTekst {
@@ -26,34 +29,33 @@ public class GebruikInLopendeTekst {
   }
 
   public String getUsageInText() {
-    if (nonNull(parameters.getTitleNoble()) || nonNull(parameters.getTitleNoblePartner())) {
+    if (hasTitle(aanschrijfWijze.getAanschrijfwijze())) {
       return createUsageInTextWithTitle();
     } else {
       return createUsageInText(parameters.getGender());
     }
   }
 
+  private boolean hasTitle(String aanschrijfwijze) {
+    return Arrays.stream(AdellijkeTitelPredikaat.values())
+        .anyMatch(tp -> aanschrijfwijze.contains(tp.getDescription()));
+  }
+
   private String createUsageInTextWithTitle() {
     var aanschrijfwijze = aanschrijfWijze.getAanschrijfwijze();
-    List<String> aanschrijfwijzeElementen = new ArrayList<>(asList(split(aanschrijfwijze)));
-    if (!aanschrijfwijze.contains("Jonk")) {
-      aanschrijfwijzeElementen.remove(0);
-      aanschrijfwijzeElementen.add(1, capitalize(aanschrijfwijzeElementen.get(1)));
-      aanschrijfwijzeElementen.remove(2);
-    } else {
-      aanschrijfwijzeElementen.add(0, aanschrijfwijzeElementen.get(0).toLowerCase(Locale.ROOT));
-      aanschrijfwijzeElementen.remove(1);
-      aanschrijfwijzeElementen.remove(1);
-      if (aanschrijfwijzeElementen.get(1).startsWith("'")) {
-        aanschrijfwijzeElementen.add(1, aanschrijfwijzeElementen.get(1).toUpperCase(Locale.ROOT));
-      } else {
-        aanschrijfwijzeElementen.add(1, capitalize(aanschrijfwijzeElementen.get(1)));
+    if (StringUtils.isNotBlank(aanschrijfwijze)) {
+      List<String> aanschrijfwijzeElementen = new ArrayList<>(asList(split(aanschrijfwijze)));
+      if (!aanschrijfwijzeElementen.isEmpty()) {
+        for (String element : new ArrayList<>(aanschrijfwijzeElementen)) {
+          if (element.contains(".")) {
+            aanschrijfwijzeElementen.remove(element);
+            break;
+          }
+        }
+        return String.join(" ", aanschrijfwijzeElementen).trim();
       }
-      aanschrijfwijzeElementen.remove(2);
     }
-
-    String gebruikInTekst = String.join(" ", aanschrijfwijzeElementen);
-    return gebruikInTekst.trim();
+    return aanschrijfwijze;
   }
 
   private String createUsageInText(GeslachtAanduiding gender) {

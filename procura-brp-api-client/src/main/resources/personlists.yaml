@@ -1259,7 +1259,7 @@ components:
               description: "De aanhef zoals die in een brief, gericht aan een persoon\
                 \ gebruikt kan worden. Hoe het samenstellen van een aanhef te werk gaat\
                 \ is beschreven in de [functionele specificaties](https://github.com/VNG-Realisatie/Bevragingen-ingeschreven-personen/blob/master/features/aanhef.feature)"
-              example: "Hooggeboren vrouwe van der Veen-van den Aedel"
+              example: "hooggeboren vrouwe van der Veen-van den Aedel"
             aanschrijfwijze:
               type: "string"
               title: "aanschrijfwijze"

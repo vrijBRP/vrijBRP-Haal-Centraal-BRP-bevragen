@@ -13,8 +13,8 @@ import static org.junit.jupiter.api.Assertions.assertNull;
  * wijze een persoon te kunnen aanschrijven.
  * De briefaanhef wordt gebruikt bovenaan een brief.
  *
- * Voor een persoon zonder adellijke titel of predikaat begint de briefaanhef met “Geachte mevrouw” (vrouw) of
- * “Geachte heer” (man) of "Geachte " plus de voorletters (onbekend), afhankelijk van het geslacht van de persoon.
+ * Voor een persoon zonder adellijke titel of predikaat begint de briefaanhef met “geachte mevrouw” (vrouw) of
+ * “geachte heer” (man) of "geachte " plus de voorletters (onbekend), afhankelijk van het geslacht van de persoon.
  * Hierop volgt de samengestelde naam.
  * De waarde van aanduidingNaamgebruik bepaalt hoe de aanhef wordt samengesteld uit de naam van de persoon en de
  * naam van de partner.

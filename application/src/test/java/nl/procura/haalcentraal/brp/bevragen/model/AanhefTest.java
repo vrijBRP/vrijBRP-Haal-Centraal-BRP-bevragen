@@ -9,16 +9,16 @@ import nl.procura.haalcentraal.brp.bevragen.converter.v1_3.enums.GeslachtAanduid
 
 //    Voorbeelden: geen adellijke titel of predikaat
 //            | aanduidingNaamgebruik | geslachtsaanduiding |samenstelling aanhef | aanschrijfwijze           | aanhef                                 |
-//      | Eigen  (E)               | man                 | GA VV GN            | H. in het Veld            | Geachte heer In het Veld               |
-//      | Eigen  (E)               | vrouw               | GA VV GN            | F. Groenen                | Geachte mevrouw Groenen                |
-//      | Eigen    (E)             | onbekend            | GA VL VV GN         | C.F.H. van Velzen         | Geachte C.F.H. van Velzen              |
-//      | Partner na eigen  (N)    | vrouw               | GA VV GN-VP GP      | I. van Velzen-in het Veld | Geachte mevrouw Van Velzen-in het Veld |
-//      | Partner na eigen   (N)   | onbekend            | GA VV GN-VP GP      | F. Groenen-Groenink       | Geachte F. Groenen-Groenink            |
-//      | Partner    (P)           | vrouw               | GA VP GP            | S. van Velzen             | Geachte mevrouw Van Velzen             |
-//      | Partner   (P)            | man                 | GA VP GP            | J.F.R. Groenen            | Geachte heer Groenen                   |
-//      | Partner voor eigen  (V)  | man                 | GA VP GP-VV GN      | F. in het Veld-van Velzen | Geachte heer In het Veld-van Velzen    |
-//      | Partner voor eigen  (V)  | vrouw               | GA VP GP-VV GN      | M. Groenen-Groenink       | Geachte mevrouw Groenen-Groenink       |
-//      | Partner voor eigen   (V) | onbekend            | GA VL. VP GP-VV GN  | J.P. van Velzen-Groenen   | Geachte J.P. van Velzen-Groenen        |
+//      | Eigen  (E)               | man                 | GA VV GN            | H. in het Veld            | geachte heer In het Veld               |
+//      | Eigen  (E)               | vrouw               | GA VV GN            | F. Groenen                | geachte mevrouw Groenen                |
+//      | Eigen    (E)             | onbekend            | GA VL VV GN         | C.F.H. van Velzen         | geachte C.F.H. van Velzen              |
+//      | Partner na eigen  (N)    | vrouw               | GA VV GN-VP GP      | I. van Velzen-in het Veld | geachte mevrouw Van Velzen-in het Veld |
+//      | Partner na eigen   (N)   | onbekend            | GA VV GN-VP GP      | F. Groenen-Groenink       | geachte F. Groenen-Groenink            |
+//      | Partner    (P)           | vrouw               | GA VP GP            | S. van Velzen             | geachte mevrouw Van Velzen             |
+//      | Partner   (P)            | man                 | GA VP GP            | J.F.R. Groenen            | geachte heer Groenen                   |
+//      | Partner voor eigen  (V)  | man                 | GA VP GP-VV GN      | F. in het Veld-van Velzen | geachte heer In het Veld-van Velzen    |
+//      | Partner voor eigen  (V)  | vrouw               | GA VP GP-VV GN      | M. Groenen-Groenink       | geachte mevrouw Groenen-Groenink       |
+//      | Partner voor eigen   (V) | onbekend            | GA VL. VP GP-VV GN  | J.P. van Velzen-Groenen   | geachte J.P. van Velzen-Groenen        |
 
 public class AanhefTest {
 

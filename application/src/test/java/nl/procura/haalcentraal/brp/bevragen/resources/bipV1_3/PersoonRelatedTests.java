@@ -58,9 +58,9 @@ public class PersoonRelatedTests extends IngeschrevenPersonenResourceTest {
         .getAdellijkeTitelPredikaat()
         .getOmschrijving());
     assertEquals("Hoogwelgeboren vrouwe", persoon.getNaam().getAanhef());
-    assertEquals("Jonkvrouw Ż.Å.Đ. 's Streeveld-gravin te Schaars", persoon.getNaam().getAanschrijfwijze());
+    assertEquals("jonkvrouw Ż.Å.Đ. 's Streeveld-gravin te Schaars", persoon.getNaam().getAanschrijfwijze());
     assertNull(persoon.getNaam().getRegelVoorafgaandAanAanschrijfwijze());
-    assertEquals("jonkvrouw 'S Streeveld-gravin te Schaars", persoon.getNaam().getGebruikInLopendeTekst());
+    assertEquals("jonkvrouw 's Streeveld-gravin te Schaars", persoon.getNaam().getGebruikInLopendeTekst());
   }
 
   @Test

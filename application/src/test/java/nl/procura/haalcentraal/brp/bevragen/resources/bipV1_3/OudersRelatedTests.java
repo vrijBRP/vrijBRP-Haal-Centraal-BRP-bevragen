@@ -69,7 +69,7 @@ public class OudersRelatedTests extends IngeschrevenPersonenResourceTest {
    * Scenario: de ouders zijn ingeschreven personen
    * Gegeven de te raadplegen persoon heeft een ouder die zelf ingeschreven persoon is
    * En de Ouder1 van de ingeschreven persoon heeft in de registratie burgerservicenummer 999999382,
-   * naam Jonkheer Franciscus Theodorus in 't Groen
+   * naam jonkheer Franciscus Theodorus in 't Groen
    * En de Ouder2 van de ingeschreven persoon heeft in de registratie burgerservicenummer 999999394, naam Philomena Blaauw
    * Als de ouders worden geraadpleegd van de ingeschreven persoon met burgerservicenummer 999999047
    * Dan wordt de ouder gevonden met ouder_aanduiding=1
@@ -78,7 +78,7 @@ public class OudersRelatedTests extends IngeschrevenPersonenResourceTest {
    * En heeft deze ouder naam.voornamen=Franciscus Theodorus
    * En heeft deze ouder naam.voorvoegsel=in 't
    * En heeft deze ouder naam.geslachtsnaam=Groen
-   * En heeft deze ouder naam.adellijkeTitel_predikaat.omschrijvingAdellijkeTitel_predikaat=Jonkheer
+   * En heeft deze ouder naam.adellijkeTitel_predikaat.omschrijvingAdellijkeTitel_predikaat=jonkheer
    * En heeft deze gevonden ouder de ingeschrevenpersonen link met /ingeschrevenpersonen/999999382
    * En wordt de ouder gevonden met ouder_aanduiding=2
    * En heeft deze ouder burgerservicenummer=999999394
@@ -134,7 +134,7 @@ public class OudersRelatedTests extends IngeschrevenPersonenResourceTest {
   /**
    * Scenario: de ouder is geen ingeschreven persoon
    * Gegeven de te raadplegen persoon heeft een ouder die zelf geen ingeschreven persoon is
-   * En de Ouder2 van de ingeschreven persoon heeft volgens categorie 05/55 naam Markiezin Marie du Partenaire,
+   * En de Ouder2 van de ingeschreven persoon heeft volgens categorie 05/55 naam markiezin Marie du Partenaire,
    * geboren in Saintt-Quentin-en-Tourmont en geboortedatum 2 november 1979
    * Als de ouders worden geraadpleegd van de ingeschreven persoon met burgerservicenummer 999999011
    * Dan wordt de ouder gevonden met ouder_aanduiding=2
@@ -142,7 +142,7 @@ public class OudersRelatedTests extends IngeschrevenPersonenResourceTest {
    * En heeft deze ouder naam.voornamen=Marie
    * En heeft deze ouder naam.voorvoegsel=du
    * En heeft deze ouder naam.geslachtsnaam=Partenaire
-   * En heeft deze ouder naam.adellijkeTitel_predikaat.omschrijvingAdellijkeTitel_predikaat=Markiezin
+   * En heeft deze ouder naam.adellijkeTitel_predikaat.omschrijvingAdellijkeTitel_predikaat=markiezin
    * En heeft deze ouder geboorte.datum.datum=1972-08-31
    * En heeft deze ouder geboorte.datum.dag=31
    * En heeft deze ouder geboorte.datum.maand=08

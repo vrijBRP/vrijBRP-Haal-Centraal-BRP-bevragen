@@ -11,8 +11,8 @@ import static nl.procura.haalcentraal.brp.bevragen.model.FullNameParameters.HYPH
 import static org.apache.commons.lang3.StringUtils.*;
 
 /**
- * Voor een persoon zonder adellijke titel of predikaat begint de briefaanhef met “Geachte mevrouw” (vrouw) of
- * “Geachte heer” (man) of "Geachte " plus de voorletters (onbekend), afhankelijk van het geslacht van de persoon.
+ * Voor een persoon zonder adellijke titel of predikaat begint de briefaanhef met “geachte mevrouw” (vrouw) of
+ * “geachte heer” (man) of "geachte " plus de voorletters (onbekend), afhankelijk van het geslacht van de persoon.
  * Hierop volgt de samengestelde naam.
  *   De waarde van aanduidingNaamgebruik bepaalt hoe de aanhef wordt samengesteld uit de naam van de persoon en de
  *   naam van de partner.
@@ -34,7 +34,7 @@ public class Aanhef {
     if (isNull(parameters.getTitleNoble()) && isNull(parameters.getTitleNoblePartner())) {
       aanhef = createAanhefWithoutTitle().toString();
     } else {
-      if (parameters.getGender().isUnknown() && !"Hoogheid".equals(parameters.getTitleNoble().getAanhef())) {
+      if (parameters.getGender().isUnknown() && !"hoogheid".equalsIgnoreCase(parameters.getTitleNoble().getAanhef())) {
         aanhef = createAanhefWithoutTitle().toString();
       } else {
         if (nonNull(parameters.getTitleNoble()) && nonNull(parameters.getTitleNoblePartner())) {
@@ -46,7 +46,7 @@ public class Aanhef {
         }
       }
     }
-    return aanhef;
+    return capitalize(aanhef);
   }
 
   private StringBuilder createAanhefWithoutTitle() {
@@ -58,7 +58,7 @@ public class Aanhef {
   }
 
   private String createDear(GeslachtAanduiding gender) {
-    String result = "Geachte ";
+    String result = "geachte ";
     if (gender == null || gender.isUnknown()) {
       if (isNotBlank(parameters.getInitials())) {
         result += parameters.getInitials() + " ";

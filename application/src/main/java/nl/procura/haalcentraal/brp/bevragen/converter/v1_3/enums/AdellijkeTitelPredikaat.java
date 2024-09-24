@@ -29,19 +29,19 @@ import static nl.procura.haalcentraal.brp.bevragen.converter.v1_3.enums.Geslacht
 @Getter
 public enum AdellijkeTitelPredikaat {
 
-  B("B", "Baron", MAN, "BS", "titel", "Hoogwelgeboren heer"),
-  BS("BS", "Barones", VROUW, "B", "titel", "Hoogwelgeboren vrouwe"),
-  G("G", "Graaf", MAN, "GI", "titel", "Hooggeboren heer"),
-  GI("GI", "Gravin", VROUW, "G", "titel", "Hooggeboren vrouwe"),
-  H("H", "Hertog", MAN, "HI", "titel", "Hoogwelgeboren heer"),
-  HI("HI", "Hertogin", VROUW, "H", "titel", "Hoogwelgeboren vrouwe"),
-  JH("JH", "Jonkheer", MAN, "JV", "predikaat", "Hoogwelgeboren heer"),
-  JV("JV", "Jonkvrouw", VROUW, "JH", "predikaat", "Hoogwelgeboren vrouwe"),
-  M("M", "Markies", MAN, "MI", "titel", "Hoogwelgeboren heer"),
-  MI("MI", "Markiezin", VROUW, "M", "titel", "Hoogwelgeboren vrouwe"),
-  P("P", "Prins", MAN, "PS", "titel", "Hoogheid"),
-  PS("PS", "Prinses", VROUW, "P", "titel", "Hoogheid"),
-  R("R", "Ridder", MAN, null, "titel", "Hoogwelgeboren heer");
+  B("B", "baron", MAN, "BS", "titel", "hoogwelgeboren heer"),
+  BS("BS", "barones", VROUW, "B", "titel", "hoogwelgeboren vrouwe"),
+  G("G", "graaf", MAN, "GI", "titel", "hooggeboren heer"),
+  GI("GI", "gravin", VROUW, "G", "titel", "hooggeboren vrouwe"),
+  H("H", "hertog", MAN, "HI", "titel", "hoogwelgeboren heer"),
+  HI("HI", "hertogin", VROUW, "H", "titel", "hoogwelgeboren vrouwe"),
+  JH("JH", "jonkheer", MAN, "JV", "predikaat", "hoogwelgeboren heer"),
+  JV("JV", "jonkvrouw", VROUW, "JH", "predikaat", "hoogwelgeboren vrouwe"),
+  M("M", "markies", MAN, "MI", "titel", "hoogwelgeboren heer"),
+  MI("MI", "markiezin", VROUW, "M", "titel", "hoogwelgeboren vrouwe"),
+  P("P", "prins", MAN, "PS", "titel", "hoogheid"),
+  PS("PS", "prinses", VROUW, "P", "titel", "hoogheid"),
+  R("R", "ridder", MAN, null, "titel", "hoogwelgeboren heer");
 
   private final String             code;
   private final String             description;

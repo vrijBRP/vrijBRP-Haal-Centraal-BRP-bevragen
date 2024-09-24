@@ -4,7 +4,7 @@
     <parent>
         <groupId>nl.procura.haalcentraal</groupId>
         <artifactId>brp-bevragen</artifactId>
-        <version>1.0.7</version>
+        <version>1.0.8-SNAPSHOT</version>
     </parent>
 
     <groupId>nl.procura.haalcentraal.brp.bevragen</groupId>
@@ -238,7 +238,6 @@
                 <configuration>
                     <release>${maven.compiler.release}</release>
                     <encoding>UTF-8</encoding>
-                    <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
         </plugins>

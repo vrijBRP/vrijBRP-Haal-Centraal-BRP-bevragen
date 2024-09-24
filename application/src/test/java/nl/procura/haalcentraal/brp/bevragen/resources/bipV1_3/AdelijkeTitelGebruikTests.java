@@ -9,21 +9,21 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 * Als de persoon een adellijke titel of predikaat heeft, wordt de aanhef bepaald op basis van adellijkeTitel_predikaat
  * en de geslachtsaanduiding volgens de volgende tabel:
         *   | adellijkeTitel_predikaat | geslachtsaanduiding | Aanhef                |
-        *   | Baron, Barones           | man                 | Hoogwelgeboren heer   |
-        *   | Baron, Barones           | vrouw               | Hoogwelgeboren vrouwe |
-        *   | Graaf, Gravin            | man                 | Hooggeboren heer      |
-        *   | Graaf, Gravin            | vrouw               | Hooggeboren vrouwe    |
-        *   | Hertog, Hertogin         | man                 | Hoogwelgeboren heer   |
-        *   | Hertog, Hertogin         | vrouw               | Hoogwelgeboren vrouwe |
-        *   | Jonkheer, Jonkvrouw      | man                 | Hoogwelgeboren heer   |
-        *   | Jonkheer, Jonkvrouw      | vrouw               | Hoogwelgeboren vrouwe |
-        *   | Markies, Markiezin       | man                 | Hoogwelgeboren heer   |
-        *   | Markies, Markiezin       | vrouw               | Hoogwelgeboren vrouwe |
-        *   | Prins, Prinses           | man                 | Hoogheid              |
-        *   | Prins, Prinses           | vrouw               | Hoogheid              |
-        *   | Prins, Prinses           | onbekend            | Hoogheid              |
-        *   | Ridder                   | man                 | Hoogwelgeboren heer   |
-        *   | Ridder                   | vrouw               | Hoogwelgeboren vrouwe |
+        *   | baron, barones           | man                 | hoogwelgeboren heer   |
+        *   | baron, barones           | vrouw               | hoogwelgeboren vrouwe |
+        *   | graaf, gravin            | man                 | hooggeboren heer      |
+        *   | graaf, gravin            | vrouw               | hooggeboren vrouwe    |
+        *   | hertog, hertogin         | man                 | hoogwelgeboren heer   |
+        *   | hertog, hertogin         | vrouw               | hoogwelgeboren vrouwe |
+        *   | jonkheer, jonkvrouw      | man                 | hoogwelgeboren heer   |
+        *   | jonkheer, jonkvrouw      | vrouw               | hoogwelgeboren vrouwe |
+        *   | markies, markiezin       | man                 | hoogwelgeboren heer   |
+        *   | markies, markiezin       | vrouw               | hoogwelgeboren vrouwe |
+        *   | prins, prinses           | man                 | hoogheid              |
+        *   | prins, prinses           | vrouw               | hoogheid              |
+        *   | prins, prinses           | onbekend            | hoogheid              |
+        *   | ridder                   | man                 | hoogwelgeboren heer   |
+        *   | ridder                   | vrouw               | hoogwelgeboren vrouwe |
    */
 
 public class AdelijkeTitelGebruikTests extends IngeschrevenPersonenResourceTest {
@@ -42,7 +42,7 @@ public class AdelijkeTitelGebruikTests extends IngeschrevenPersonenResourceTest 
     assertEquals("Hooggeboren vrouwe", persoon.getNaam().getAanhef());
     assertNull(persoon.getNaam().getRegelVoorafgaandAanAanschrijfwijze());
     assertEquals("G.S. gravin de Marchant et d'Ansembourg", persoon.getNaam().getAanschrijfwijze());
-    assertEquals("gravin De Marchant et d'Ansembourg", persoon.getNaam().getGebruikInLopendeTekst());
+    assertEquals("gravin de Marchant et d'Ansembourg", persoon.getNaam().getGebruikInLopendeTekst());
 
     persoon = getIngeschrevenPersoon(999994669L);
     assertEquals("eigen_partner", persoon.getNaam().getAanduidingNaamgebruik().toString());
@@ -52,8 +52,8 @@ public class AdelijkeTitelGebruikTests extends IngeschrevenPersonenResourceTest 
         persoon.getEmbedded().getPartners().get(0).getNaam().getAdellijkeTitelPredikaat().getOmschrijving());
     assertEquals("Hoogwelgeboren vrouwe", persoon.getNaam().getAanhef());
     assertNull(persoon.getNaam().getRegelVoorafgaandAanAanschrijfwijze());
-    assertEquals("Jonkvrouw Ż.Å.Đ. 's Streeveld-gravin te Schaars", persoon.getNaam().getAanschrijfwijze());
-    assertEquals("jonkvrouw 'S Streeveld-gravin te Schaars", persoon.getNaam().getGebruikInLopendeTekst());
+    assertEquals("jonkvrouw Ż.Å.Đ. 's Streeveld-gravin te Schaars", persoon.getNaam().getAanschrijfwijze());
+    assertEquals("jonkvrouw 's Streeveld-gravin te Schaars", persoon.getNaam().getGebruikInLopendeTekst());
 
     persoon = getIngeschrevenPersoon(999990305L);
     assertEquals("eigen_partner", persoon.getNaam().getAanduidingNaamgebruik().toString());
@@ -63,8 +63,8 @@ public class AdelijkeTitelGebruikTests extends IngeschrevenPersonenResourceTest 
         persoon.getEmbedded().getPartners().get(0).getNaam().getAdellijkeTitelPredikaat().getOmschrijving());
     assertEquals("Hoogwelgeboren vrouwe", persoon.getNaam().getAanhef());
     assertNull(persoon.getNaam().getRegelVoorafgaandAanAanschrijfwijze());
-    assertEquals("Jonkvrouw Ż.Å.Đ. 's Streeveld-gravin te Schaars", persoon.getNaam().getAanschrijfwijze());
-    assertEquals("jonkvrouw 'S Streeveld-gravin te Schaars", persoon.getNaam().getGebruikInLopendeTekst());
+    assertEquals("jonkvrouw Ż.Å.Đ. 's Streeveld-gravin te Schaars", persoon.getNaam().getAanschrijfwijze());
+    assertEquals("jonkvrouw 's Streeveld-gravin te Schaars", persoon.getNaam().getGebruikInLopendeTekst());
 
     persoon = getIngeschrevenPersoon(999994827L);
     assertEquals("eigen", persoon.getNaam().getAanduidingNaamgebruik().toString());
@@ -72,8 +72,8 @@ public class AdelijkeTitelGebruikTests extends IngeschrevenPersonenResourceTest 
     assertEquals("Jonkvrouw", persoon.getNaam().getAdellijkeTitelPredikaat().getOmschrijving());
     assertEquals("Hoogwelgeboren vrouwe", persoon.getNaam().getAanhef());
     assertNull(persoon.getNaam().getRegelVoorafgaandAanAanschrijfwijze());
-    assertEquals("Jonkvrouw Ż.Å.Đ. s Slechte", persoon.getNaam().getAanschrijfwijze());
-    assertEquals("jonkvrouw S Slechte", persoon.getNaam().getGebruikInLopendeTekst());
+    assertEquals("jonkvrouw Ż.Å.Đ. s Slechte", persoon.getNaam().getAanschrijfwijze());
+    assertEquals("jonkvrouw s Slechte", persoon.getNaam().getGebruikInLopendeTekst());
 
     persoon = getIngeschrevenPersoon(999994037L);
     assertEquals("Hom", persoon.getNaam().getGeslachtsnaam());
@@ -85,7 +85,7 @@ public class AdelijkeTitelGebruikTests extends IngeschrevenPersonenResourceTest 
     assertEquals("Hoogwelgeboren vrouwe", persoon.getNaam().getAanhef());
     assertEquals("C. barones van Brest naar Kempen", persoon.getNaam().getAanschrijfwijze());
     assertNull(persoon.getNaam().getRegelVoorafgaandAanAanschrijfwijze());
-    assertEquals("barones Van Brest naar Kempen", persoon.getNaam().getGebruikInLopendeTekst());
+    assertEquals("barones van Brest naar Kempen", persoon.getNaam().getGebruikInLopendeTekst());
 
     persoon = getIngeschrevenPersoon(999993422L);
     assertEquals("eigen", persoon.getNaam().getAanduidingNaamgebruik().toString());
@@ -94,7 +94,7 @@ public class AdelijkeTitelGebruikTests extends IngeschrevenPersonenResourceTest 
     assertEquals("Hoogwelgeboren heer", persoon.getNaam().getAanhef());
     assertEquals("De hoogwelgeboren heer", persoon.getNaam().getRegelVoorafgaandAanAanschrijfwijze());
     assertEquals("M.G.F.M.V. baron van Brest naar Kempen", persoon.getNaam().getAanschrijfwijze());
-    assertEquals("baron Van Brest naar Kempen", persoon.getNaam().getGebruikInLopendeTekst());
+    assertEquals("baron van Brest naar Kempen", persoon.getNaam().getGebruikInLopendeTekst());
 
   }
 }

@@ -37,7 +37,7 @@ public class AanschrijfWijze {
         }
       }
     }
-    return aanschrijfwijze;
+    return aanschrijfwijze.trim();
   }
 
   private String createAanschrijfwijzeBothWithTitle(AanduidingAanschrijving fullNameUsage) {
@@ -64,7 +64,7 @@ public class AanschrijfWijze {
         if (titlePartnerExceptR) {
           composeInitialsAndWithTitlePartner(aanschrijfwijze);
         } else {
-          createAanschrijfwijzeWithoutTitle(fullNameUsage);
+          aanschrijfwijze.append(createAanschrijfwijzeWithoutTitle(fullNameUsage));
         }
     }
     return aanschrijfwijze.toString();
@@ -97,7 +97,8 @@ public class AanschrijfWijze {
   }
 
   private void composeWithOwnTitle(StringBuilder aanschrijfwijze) {
-    aanschrijfwijze.append(parameters.getTitleNoble().getDescription().toLowerCase(Locale.ROOT));
+    aanschrijfwijze.append(parameters.getTitleNoble().getDescription().toLowerCase(Locale.ROOT))
+        .append(" ");
     composeOwnName(aanschrijfwijze);
   }
 
@@ -154,7 +155,7 @@ public class AanschrijfWijze {
         composeNamePartner(aanschrijfwijze);
         break;
       case P:
-        createAanschrijfwijzeWithoutTitle(fullNameUsage);
+        aanschrijfwijze.append(createAanschrijfwijzeWithoutTitle(fullNameUsage));
         break;
     }
     return aanschrijfwijze.toString();
@@ -184,7 +185,7 @@ public class AanschrijfWijze {
     switch (fullNameUsage) {
       default:
       case E:
-        createAanschrijfwijzeWithoutTitle(fullNameUsage);
+        aanschrijfwijze.append(createAanschrijfwijzeWithoutTitle(fullNameUsage));
         break;
       case N:
         if (titlePartnerExceptR) {
@@ -192,7 +193,7 @@ public class AanschrijfWijze {
           aanschrijfwijze.append(HYPHEN);
           composeWithTitlePartner(aanschrijfwijze);
         } else {
-          createAanschrijfwijzeWithoutTitle(fullNameUsage);
+          aanschrijfwijze.append(createAanschrijfwijzeWithoutTitle(fullNameUsage));
         }
         break;
       case V:
@@ -201,18 +202,18 @@ public class AanschrijfWijze {
           aanschrijfwijze.append(HYPHEN);
           composeInitialsAndName(aanschrijfwijze);
         } else {
-          createAanschrijfwijzeWithoutTitle(fullNameUsage);
+          aanschrijfwijze.append(createAanschrijfwijzeWithoutTitle(fullNameUsage));
         }
         break;
       case P:
         if (titlePartnerExceptR) {
           composeInitialsAndWithTitlePartner(aanschrijfwijze);
         } else {
-          createAanschrijfwijzeWithoutTitle(fullNameUsage);
+          aanschrijfwijze.append(createAanschrijfwijzeWithoutTitle(fullNameUsage));
         }
         break;
     }
-    return aanschrijfwijze.toString();
+    return aanschrijfwijze.toString().trim();
   }
 
   private void composeInitialsAndName(StringBuilder aanschrijfwijze) {
